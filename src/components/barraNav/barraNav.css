@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'ArialRounded';
+    font-weight: bold;
+    src: url("../../components/fonts/arlrdbd.ttf") format('truetype');
+}
+.gral{
+    max-width: 100%;
+    width: 100vw;
+    height: 15vh;
+    background-color: #e7eaee;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    z-index: 998;
+    justify-content: center;
+}
+
+.logos{
+    display: block;
+}
+.customToggler {
+    z-index: 999; /* Puedes ajustar el valor según sea necesario */
+    margin-left: 0.3rem;
+    transform: scale(0.7); 
+
+
+
+}
+.colorHamb{
+    color:  rgba(190, 163, 122, 0.4);
+    font-size: 1.4rem;
+    
+}
+
+
+.hvr-fade {
+    font-family: 'ArialRounded', sans-serif;
+display: inline-block;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+overflow: hidden;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: color, background-color;
+transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+background-color: rgba(190, 163, 122, 0.4);
+color: white;
+border-radius: 0.5rem;
+}
+.navbar-expand-lg .navbar-collapse {
+background-color: #e7eaee;
+padding-left: 0.5rem;
+}
+.surroundIcon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    width: 3.5rem;
+}
+.logoInd{
+    width: 1.3rem;
+}
+
+.logos{
+    margin-right: 12px;
+}
+
+
+      
+      
+     
+            @media (min-width: 780px) {
+            .gral{
+                height: 11vh;
+                display: flex;
+                flex-direction: row-reverse;
+                max-width: 100%;
+                width: 100vw;
+            }
+            .icon{
+                width: 2.5rem;
+                margin-left: 1.5rem;
+                }
+            }
+            .logos{
+                display: none;
+            }
+            .customToggler{
+                margin-right: 1.5rem;
+            }
+          
+            @media (max-width: 768px) {
+                .logos {
+                    display: block; /* Mostrar logos en resoluciones menores a 768 píxeles */
+                }
+            }
+            @media (min-width: 990px) {
+                .icon{
+                    width: 3rem;
+                }
+                .surroundIcon{
+                    margin-right: auto;
+                }
+            }
+            @media (min-width: 1024px) {
+    
+            .gral{
+                max-width: 100%;
+                width: 100vw;
+                height: 12vh;
+            }
+            .surroundIcon{
+                margin-right: auto;
+            }
+            .icon{
+                width: 3.5rem;
+            }
+            .navLinkOrder{
+                margin-top: 1rem;
+                margin-right: 1rem;
+            }
+            }
