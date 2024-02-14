@@ -60,42 +60,36 @@
 
 .logoWhatsSuplie{
     width: 2.5rem;
-    margin: 0.8rem;
-    margin-left: 5.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .whatsAreaSuplie{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
   @media (min-width: 359px){
         .backColorSuplie{
             padding-top: 2rem;
         }
-        .logoWhatsSuplie{
-            margin-left: 8rem;
-        }
+
     }
     @media (min-width: 390px){
         .backColorSuplie{
             padding-top: 3rem;
             min-height: 90vh;
         }
-        .logoWhatsSuplie{
-            margin-left: 9rem;
-        }
+
     }
     @media (min-width: 412px){
         .backColorSuplie{
             min-height: 85vh;
             padding-top: 4rem;
         }
-        
-        .logoWhatsSuplie{
-            margin-left: 10rem;
-        }
+
 
     }  
     @media (min-width: 539px){
@@ -103,9 +97,7 @@
         .backColorSuplie{
             padding-top: 3rem;
         }
-        .logoWhatsSuplie{
-            margin-left: 14rem;
-        }
+
 
     }
 
@@ -119,9 +111,6 @@
         padding-top: 2rem;
     }
 
-    .logoWhatsSuplie{
-        margin-left: 20.5rem;
-    }
     
 
 }  
@@ -140,9 +129,7 @@
         margin-right: auto;
     }
 
-    .logoWhatsSuplie{
-        margin-left: 18rem;
-    }
+
   
 }
 @media (min-width: 912px){
@@ -153,9 +140,7 @@
         margin-right: auto;
     }
 
-    .logoWhatsSuplie{
-        margin-left: 20rem;
-    }
+
   
 }  
 
@@ -193,7 +178,7 @@
         margin-right: auto;
     }
     .logoWhatsSuplie{
-        margin-left: 22rem;
+
         width: 3.4rem;
     }
 }  
@@ -222,7 +207,7 @@
         margin-right: auto;
     }
     .logoWhatsSuplie{
-        margin-left: 27rem;
+ 
         width: 3.6rem;
         padding-top: 1rem;
     }
@@ -250,7 +235,7 @@
         margin-top: 2rem;
     }
     .logoWhatsSuplie{
-        margin-left: 23rem;
+
         width: 4rem;
     }
     .titleSuplie{
