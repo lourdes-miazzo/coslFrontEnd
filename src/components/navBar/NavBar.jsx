@@ -34,7 +34,7 @@ const NavBar = () => {
                         <div className="navbar-nav">
                             <Link className="nav-link hvr-fade" aria-current="page" to="/api/nosotros" onClick={closeNav}>NOSOTROS</Link>
                             <Link className="nav-link hvr-fade" to="/api/comision" onClick={closeNav}>COMISIÓN DIRECTIVA</Link>
-                            <Link className="nav-link hvr-fade" to="/api/proveeduria" onClick={closeNav}>PROOVEDURÍA</Link>
+                            <Link className="nav-link hvr-fade" to="/api/proveeduria" onClick={closeNav}>PROVEEDURÍA</Link>
                             <Link className="nav-link hvr-fade" to="/api/capacitaciones" onClick={closeNav}>CAPACITACIONES</Link>
                             <Link className="nav-link hvr-fade" to="/api/autogestion" onClick={closeNav}>AUTOGESTIÓN</Link>
                         </div>
