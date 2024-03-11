@@ -36,7 +36,7 @@ const NavBar = () => {
                             <Link className="nav-link hvr-fade" to="/api/comision" onClick={closeNav}>COMISIÓN DIRECTIVA</Link>
                             <Link className="nav-link hvr-fade" to="/api/proveeduria" onClick={closeNav}>PROVEEDURÍA</Link>
                             <Link className="nav-link hvr-fade" to="/api/capacitaciones" onClick={closeNav}>CAPACITACIONES</Link>
-                            <Link className="nav-link hvr-fade" to="/www.circuloodontologicosanluis.com.ar/autogestion/" onClick={closeNav}>AUTOGESTIÓN</Link>
+                            <Link className="nav-link hvr-fade" to="https://www.circuloodontologicosanluis.com.ar/autogestion/" onClick={closeNav}>AUTOGESTIÓN</Link>
                         </div>
                     </div>
                 </div>
