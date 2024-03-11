@@ -10,7 +10,7 @@ import Capacitaciones from './pages/capacitacion/Capacitaciones.jsx';
 import Posgrado from './pages/posgrado/Posgrado.jsx';
 import Soofma from './pages/soofma/Soofma.jsx';
 import Cursos from './pages/cursos/Cursos.jsx';
-import Autogestion from './pages/autogestion/Autogestion.jsx';
+
 import NavBar from './components/navBar/NavBar.jsx';
 
 
@@ -34,7 +34,6 @@ function App() {
             <Route exact path="/api/capacitaciones/posgrado" element={<Posgrado/>}/>
             <Route exact path="/api/capacitaciones/soofma" element={<Soofma/>}/>
             <Route exact path="/api/capacitaciones/cursos" element={<Cursos/>}/>
-            <Route exact path="/api/autogestion" element={<Autogestion/>}/>
             <Route path='/*' element={<Error404/>}/>
         </Routes>
       </BrowserRouter> 
