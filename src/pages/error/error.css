@@ -8,12 +8,12 @@
 }
 .aroundError{
     background-color: #e7eaee;
-    padding: 4rem;
+    padding: 2rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30vw;
+    width: 90vw;
 }
 .buttonError{
     background-color: rgb(226, 206, 179);
@@ -30,15 +30,22 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+h3{
+    text-align: center;
+}
 @media (min-width: 768px){
 
     .backColor3{
-        height: 89vh;
+        min-height: 89vh;
     }
-    
+    .aroundError{
+        width: 70vw;
+    }
     .buttonError{
         padding: 0.8rem;
+    }
+    h3{
+        text-align: center;
     }
 }  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
 
@@ -46,9 +53,11 @@
 @media (min-width: 1024px){
 
     .backColor3{
-        height: 90vh;
+        min-height: 90vh;
     }
-    
+    .aroundError{
+        width: 50vw;
+    }
     .buttonError{
         padding: 0.8rem;
     }
